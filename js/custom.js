@@ -96,7 +96,7 @@
         /* ----------------------------------------------------------- */
 
 		$(".contactform").on("submit", function() {
-			$(".output_message").text("Message sent!");
+			$(".output_message").text("Sending Message.");
 
 			var form = $(this);
 			$.ajax({
